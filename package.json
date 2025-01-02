@@ -8,6 +8,10 @@
     "start": "next start",
     "lint": "next lint"
   },
+  "author": {
+    "name": "Leandro Bertalhia",
+    "url": "https://leandro-dev.vercel.app"
+  },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.1",
     "class-variance-authority": "^0.7.1",

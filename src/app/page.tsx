@@ -6,7 +6,12 @@ import { SandwichIcon } from "lucide-react";
 export default function Page() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center p-6 lg:px-10 gap-6">
-      <Image src="/logo.svg" alt="Logo" width={48} height={48} />
+      <div className="w-12 h-12 relative">
+        <Image src="/logo.svg" alt="Logo" fill />
+        <span className="absolute -top-2 -right-2 bg-white w-5 h-5 rounded-full border flex items-center justify-center text-xs">
+          3
+        </span>
+      </div>
 
       <h1 className="text-2xl font-medium">ReqEat</h1>
 
