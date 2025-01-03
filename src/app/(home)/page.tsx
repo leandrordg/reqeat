@@ -5,6 +5,7 @@ import { useQuery } from "convex/react";
 
 import { FullscreenLoader } from "@/components/fullscreen-loader";
 import { Navbar } from "./navbar";
+import { Heading } from "./heading";
 
 export default function Page() {
   const documents = useQuery(api.products.get);
@@ -15,6 +16,7 @@ export default function Page() {
   return (
     <div className="min-h-screen">
       <Navbar />
+      <Heading />
     </div>
   );
 }
